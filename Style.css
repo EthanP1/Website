@@ -5,10 +5,5 @@ body
     background: linear-gradient(to right,  #03001e,#7303c0, #ec38bc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
-<<<<<<< HEAD
-BODY { COLOR: #ffffff}
-h3 {color: #ffff00}
-=======
 BODY { COLOR: #ec38bc}
 H3 {color: rgb(255, 255, 0)}
->>>>>>> parent of f666b71... Revert "Memes added"
