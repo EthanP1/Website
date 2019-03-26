@@ -3,6 +3,7 @@
     <option name="allowDataCollection" value="true" />
     <option name="highlightColorEnabled" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="overrideAccentColor" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="accentColor" value="ab47bc" />
     <option name="selectedTheme" value="PALENIGHT" />
