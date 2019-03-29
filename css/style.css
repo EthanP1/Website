@@ -4,15 +4,14 @@ Body
   background: -webkit-linear-gradient(to right, #03001e, #7303c0, #ec38bc);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #03001e, #7303c0, #ec38bc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ec38bc;
+  padding-top: 50px;
 }
-
 h1
 {
   color: #ffff00;
-  margin: auto 500px auto auto;
+  margin: auto 550px auto auto;
   text-align: center;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -52,6 +51,6 @@ li a:hover {
   background-color: #690069;
 }
 
-h2 {
-  padding-top: 50px;
+div {
+  text-align: center
 }
