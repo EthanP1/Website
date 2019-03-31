@@ -16,20 +16,31 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+
+  <script>
+    if (isMobile()) {
+
+      window.location = "index_mobile.html";
+    }
+  </script>
 
   <meta name="theme-color" content="#fafafa">
 
   <div class="topnav" id="myTopnav">
-    <a class="active" href="index.html">Home</a>
-    <a href="memes.html">Meme Stash</a>
-    <a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g" target="_blank">Free Shizzle</a>
-    <a href="https://myanimelist.net/animelist/EthanP1" target="_blank">My Anime List</a>
-    <a href="https://www.last.fm/user/EthanP1" target="_blank"> My Music Habits</a>
+    <a class="icon" href="javascript:void(0);" onclick="myFunction()">
+      <a class="active" href="index.html">Home</a>
+      <a href="memes.html">Meme Stash</a>
+      <a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g" target="_blank">Free Shizzle</a>
+      <a href="https://myanimelist.net/animelist/EthanP1" target="_blank">My Anime List</a>
+      <a href="https://www.last.fm/user/EthanP1" target="_blank"> My Music Habits</a>
+    </a>
     <h1>This is my website</h1>
   </div>
 </head>
 <body>
 
+<div id="isMobile"
 <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
   your browser</a> to improve your experience and security.</p>
