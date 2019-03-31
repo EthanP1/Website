@@ -4,7 +4,7 @@ Body
   background: -webkit-linear-gradient(to right, #03001e, #7303c0, #ec38bc);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #03001e, #7303c0, #ec38bc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ec38bc;
-  padding-top: 50px;
+  padding-top: auto;
 }
 h1
 {
@@ -12,41 +12,68 @@ h1
   margin: auto 550px auto auto;
   text-align: center;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  border: 0 solid #e7e7e7;
-}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
   overflow: hidden;
-  background-color: #333;
 }
 
-li {
+/* Style the links inside the navigation bar */
+.topnav a {
   float: left;
-}
-
-li a {
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #690069;
+  color: black;
 }
 
+/* Add an active class to highlight the current page */
 .active {
   background-color: #690069;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
