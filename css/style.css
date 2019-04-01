@@ -11,9 +11,10 @@ h1
   color: #ffff00;
   margin: auto 550px auto auto;
   text-align: center;
-  font-size: 5.9vw;
+  font-size: 1.7vmax;
 }
-h2 
+
+h2
 {
   font-size: 3.0vh;
 }
