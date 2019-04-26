@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="js" lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Cha'boi</title>
@@ -10,7 +11,7 @@
 
   <link href="../site.webmanifest" rel="manifest">
   <link href="../icon.png" rel="apple-touch-icon">
-  <link href="../favicon.ico" rel="shortcut icon" type="image/png"/>
+  <link href="../favicon.ico" rel="shortcut icon" type="image/png" />
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -29,44 +30,46 @@
     <h1>This is my website</h1>
   </div>
 </head>
+
 <body>
 
-<!--[if IE]>
+  <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
   your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<!-- Add your site or application content here -->
-<h2>I don't know what to put on this site</h2>
+  <!-- Add your site or application content here -->
+  <h2>I don't know what to put on this site</h2>
 
-<!-- js scripting -->
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('/sw.js')
-      .then(function () {
-        console.log("Service Worker Registered");
-      });
-  }
-</script>
+  <!-- js scripting -->
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function () {
+          console.log("Service Worker Registered");
+        });
+    }
+  </script>
 
-<!-- Google Analytics -->
-<script>
-  window.ga = function () {
-    ga.q.push(arguments)
-  };
-  ga.q = [];
-  ga.l = +new Date;
-  ga('create', 'UA-136949455-1', 'auto');
-  ga('set', 'transport', 'beacon');
-  ga('send', 'pageview')
-</script>
-<script async defer src="https://www.google-analytics.com/analytics.js"></script>
+  <!-- Google Analytics -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-136949455-1', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script async defer src="https://www.google-analytics.com/analytics.js"></script>
 </body>
+
 </html>
