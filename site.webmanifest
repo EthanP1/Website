@@ -2,11 +2,11 @@
   "short_name": "EthanTech",
   "name": "Ethan's Tech",
   "icons": [{
-    "src": "icon.png",
+    "src": "tile.png",
     "type": "image/png",
-    "sizes": "192x192"
+    "sizes": "558x558"
   }],
-  "start_url": "https://ethans-tech.me/app/index.html",
+  "start_url": "/",
   "background_color": "#000000",
   "theme_color": "#ff00ff"
 }
