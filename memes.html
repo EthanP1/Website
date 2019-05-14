@@ -19,7 +19,8 @@
       ]
     }
   </script>
-  <style amp-boilerplate>body {
+  <style amp-boilerplate>
+  body {
     -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
     -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
     -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -70,6 +71,38 @@
       visibility: visible
     }
   }</style>
+    <style>
+      body {margin: 0;}
+      
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #303030;
+      }
+      
+      ul.topnav li {float: left;}
+      
+      ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      ul.topnav li a:hover:not(.active) {background-color: #111;}
+      
+      ul.topnav li a.active {background-color: rgb(140, 0, 255);}
+      
+      ul.topnav li.right {float: right;}
+      
+      @media screen and (max-width: 600px) {
+        ul.topnav li.right, 
+        ul.topnav li {float: none;}
+      }
+    </style>
   <noscript>
     <style amp-boilerplate>body {
       -webkit-animation: none;
@@ -151,18 +184,18 @@
     }
 
   </style>
-
-  <div class="topnav" id="myTopnav">
-    <a class="icon" href="javascript:void(0);" onclick="myFunction()">
-      <a href="index.html">Home</a>
-      <a class="active" href="memes.html">Meme Stash</a>
-      <a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g" rel="noreferrer" target="_blank">Free Shizzle</a>
-      <a href="https://myanimelist.net/animelist/EthanP1" rel="noreferrer" target="_blank">My Anime List</a>
-      <a href="https://www.last.fm/user/EthanP1" rel="noreferrer" target="_blank"> My Music Habits</a>
-    </a>
-  </div>
 </head>
+
 <body>
+  <!--Nav Bar-->
+  <ul class="topnav">
+     <li><a class="active" href="index.html">Home</a></li>
+     <li><a href="memes.html">Meme Stash</a></li>
+     <li><a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g">Free shizzle</a></li>
+     <li><a href="https://myanimelist.net/animelist/EthanP1">Anime List</a></li>
+     <li><a href="https://www.last.fm/user/EthanP1">Last.fm</a></li>
+  </ul>
+  <!--AMP Gallary-->
 <div class="responsive" style="text-align: center;">
   <div class="gallery">
     <amp-img alt="Ajit meme 1" height="400" src="img/Memes/ajit1.png" width="600"></amp-img>
