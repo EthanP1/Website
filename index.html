@@ -2,31 +2,55 @@
 <html class="js" lang="en">
 
 <head>
+    <title>Cha'boi</title>
+
   <meta charset="utf-8">
-  <title>Cha'boi</title>
+  <meta name="theme-color" content="#fafafa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta
     content="This is Ethan's website where he will be putting his coding skills to the test to build the best site he can."
     name="description">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href="site.webmanifest" rel="manifest">
   <link href="icon.png" rel="apple-touch-icon">
   <link href="favicon.ico" rel="shortcut icon" type="image/png"/>
-
+<!--CSS links-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
-
-  <meta name="theme-color" content="#fafafa">
-
-  <div class="topnav" id="myTopnav">
-    <a class="icon" href="javascript:void(0);" onclick="myFunction()">
-      <a class="active" href="index.html">Home</a>
-      <a href="memes.html" rel="canonical">Meme Stash</a>
-      <a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g" rel="noreferrer" target="_blank">Free Shizzle</a>
-      <a href="https://myanimelist.net/animelist/EthanP1" rel="noreferrer" target="_blank">My Anime List</a>
-      <a href="https://www.last.fm/user/EthanP1" rel="noreferrer" target="_blank"> My Music Habits</a>
-    </a>
-  </div>
+<!-- Nav Bar Scripting-->
+<style>
+    body {margin: 0;}
+    
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    ul.topnav li {float: left;}
+    
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {background-color: #111;}
+    
+    ul.topnav li a.active {background-color: #4CAF50;}
+    
+    ul.topnav li.right {float: right;}
+    
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right, 
+      ul.topnav li {float: none;}
+    }
+    </style>
 </head>
 
 <body>
@@ -36,6 +60,14 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
+<ul class="topnav">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="memes.html">Meme Stash</a></li>
+    <li><a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g">Free shizzle</a></li>
+    <li><a href="https://myanimelist.net/animelist/EthanP1">Anime List</a></li>
+    <li><a href="https://www.last.fm/user/EthanP1">Last.fm</a></li>
+  </ul>
+  
 <h2>I don't know what to put on this site</h2>
   
 <!-- js scripting -->
