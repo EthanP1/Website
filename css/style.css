@@ -14,9 +14,23 @@ h1
 h2
 {
   font-size: 3.0vh;
+  padding-left: 20px;
 }
 
 p
 {
   font-size: 2vmin;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 60px;
+}
+
+.main
+{
+  padding-left: 80px;
+  padding-right: 200px;
+}
+
+img
+{
+  padding-left:80px
 }
