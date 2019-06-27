@@ -34,3 +34,25 @@ img
 {
   padding-left:80px
 }
+
+@media only screen and (max-width: 800px) {
+  h2
+  {
+    font-size: 3.3vh;
+  }
+  p
+  {
+    font-size: 3.0vh;
+    padding-left: 20px
+  }
+  .main
+  {
+    padding-left: 40px;
+    padding-right: 20px
+  }
+  img
+  {
+    width: 80%;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
