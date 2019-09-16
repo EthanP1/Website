@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839d4555-5f2c-4cb3-9d9d-fd2d9907887d" name="Default Changelist" comment="Added darker background to web pages">
-      <change afterPath="$PROJECT_DIR$/Pages/WWDC19.html" afterDir="false" />
+    <list default="true" id="839d4555-5f2c-4cb3-9d9d-fd2d9907887d" name="Default Changelist" comment="Updated code">
       <change beforePath="$PROJECT_DIR$/.idea/Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/memes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disabled/index_mobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/WWDC19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/WWDC19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/memes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/memes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestyles/Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/TOC.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/css.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/extend.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,37 +47,16 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pages/WWDC19.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+            <state relative-caret-position="714">
+              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -107,12 +100,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_mobile.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/Pages/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/extend.md" />
+        <option value="$PROJECT_DIR$/Pages/memes.html" />
         <option value="$PROJECT_DIR$/Pages/WWDC19.html" />
+        <option value="$PROJECT_DIR$/Pages/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1337" />
@@ -172,9 +168,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Pages" />
       <recent name="$PROJECT_DIR$/Disabled" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -237,7 +233,7 @@
       <workItem from="1559599312787" duration="1390000" />
       <workItem from="1559759946546" duration="1930000" />
       <workItem from="1560530256527" duration="112000" />
-      <workItem from="1568661050974" duration="624000" />
+      <workItem from="1568661050974" duration="4343000" />
     </task>
     <task id="LOCAL-00001" summary="Ported old code and media">
       <created>1553636833928</created>
@@ -365,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556912105765</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added WWDC Tab">
+      <created>1568661763376</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568661763376</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36678000" />
+    <option name="totallyTimeSpent" value="40397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,9 +383,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49926144" weight="0.113036625" />
+      <window_info id="Structure" order="1" sideWeight="0.50073856" side_tool="true" weight="0.18314297" />
+      <window_info id="Favorites" order="2" sideWeight="0.50073856" side_tool="true" weight="0.18314297" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293944" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.49959317" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291239" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32872254" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32872254" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49926144" visible="true" weight="0.113036625" />
       <window_info id="Structure" order="1" sideWeight="0.50073856" side_tool="true" weight="0.18314297" />
       <window_info id="Favorites" order="2" sideWeight="0.50073856" side_tool="true" weight="0.18314297" />
@@ -397,12 +421,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.49959317" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291239" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3293944" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3293944" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32872254" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32872254" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -479,7 +503,9 @@
     <MESSAGE value="Landing page updated" />
     <MESSAGE value="Meme stash mobile acceleration" />
     <MESSAGE value="Added darker background to web pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added darker background to web pages" />
+    <MESSAGE value="Added WWDC Tab" />
+    <MESSAGE value="Updated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -497,27 +523,11 @@
     <entry file="file://$PROJECT_DIR$/github.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/codestyles/Default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colors/_@user_Darcula.icls">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
@@ -572,9 +582,6 @@
     <entry file="file://$PROJECT_DIR$/ui.lnf.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/material_theme.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/material_custom_theme.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -598,40 +605,78 @@
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/ethan.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/memes.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/extend.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="483" selection-start-line="483" selection-end-line="484" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disabled/index_mobile.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codestyles/Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colors/_@user_Darcula.icls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material_theme.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#noscript#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="462">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/index.html">
+    <entry file="file://$PROJECT_DIR$/Pages/memes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="656">
+          <caret line="142" column="46" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
           <folding>
+            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#noscript#0;n#head#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/WWDC19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+        <state relative-caret-position="243">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

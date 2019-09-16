@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/Disabled" />
+      <excludeFolder url="file://$MODULE_DIR$/doc" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
@@ -13,5 +15,6 @@
     <orderEntry type="library" name="v0" level="application" />
     <orderEntry type="library" name="v0" level="application" />
     <orderEntry type="library" name="analytics" level="application" />
+    <orderEntry type="library" name="v0" level="application" />
   </component>
 </module>
