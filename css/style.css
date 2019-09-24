@@ -1,6 +1,16 @@
-Body {
+@media (prefers-color-scheme: no-preference) {
+  Body {
   background: #303030;
   color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  /* Overrides for Light Mode. */
+  body {
+    background: whitesmoke;  
+    color: 303030;
+  }
 }
 
 h1 {
