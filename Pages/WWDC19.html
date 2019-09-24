@@ -27,7 +27,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #303030;
+      background-color: var(--main-bg-color);
     }
 
     ul.topnav li {
@@ -36,14 +36,14 @@
 
     ul.topnav li a {
       display: block;
-      color: white;
+      color: var(--main-txt-color);
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
     }
 
     ul.topnav li a:hover:not(.active) {
-      background-color: #111;
+      background-color: var(--nav-hov-color);
     }
 
     ul.topnav li a.active {
@@ -72,7 +72,7 @@
 <ul class="topnav">
   <li><a href="index.html">Home</a></li>
   <li><a href="memes.html">Meme Stash</a></li>
-  <li><a href="WWDC19.html">WWDC 2019</a></li>
+  <li><a class="active" href="WWDC19.html">WWDC 2019</a></li>
   <li><a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g">Free shizzle</a></li>
   <li><a href="https://myanimelist.net/animelist/EthanP1">Anime List</a></li>
   <li><a href="https://www.last.fm/user/EthanP1">Last.fm</a></li>
@@ -81,7 +81,7 @@
 <h2 class="Title">
   WWDC 2019 TL; DR
 </h2>
-<div style="color: whitesmoke">
+<div style="color: var(--main-txt-color)">
   <P><U><B>
     Apple TV 13
   </B></U></P>
