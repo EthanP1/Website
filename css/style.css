@@ -1,15 +1,28 @@
 @media (prefers-color-scheme: no-preference) {
   Body {
-  background: #303030;
-  color: #ffffff;
+    --main-bg-color: #303030;
+    --main-txt-color: whitesmoke
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
   }
 }
 
 @media (prefers-color-scheme: light) {
   /* Overrides for Light Mode. */
   body {
-    background: whitesmoke;  
-    color: 303030;
+    --main-bg-color: whitesmoke;
+    --main-txt-color: #303030
+    background: var(--main-bg-color);  
+    color: var(--main-txt-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  Body {
+    --main-bg-color: #303030;
+    --main-txt-color: whitesmoke
+    background: var(--main-bg-color);  
+    color: var(--main-txt-color);
   }
 }
 
