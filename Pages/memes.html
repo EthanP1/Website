@@ -84,8 +84,8 @@
   <!--background and Navbar style-->
   <style amp-custom>
     Body {
-      background: #303030;
-      color: #ec38bc;
+      background: var(--main-bg-color);
+      color: var(--main-txt-color);
       padding-top: auto;
     }
 
@@ -98,7 +98,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #303030;
+      background-color: var(--main-bg-color);
     }
 
     ul.topnav li {
@@ -107,14 +107,14 @@
 
     ul.topnav li a {
       display: block;
-      color: white;
+      color: var(--main-txt-color);
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
     }
 
     ul.topnav li a:hover:not(.active) {
-      background-color: #111;
+      background-color: var(--nav-hov-color);
     }
 
     ul.topnav li a.active {
@@ -146,7 +146,7 @@
   <li><a href="https://www.last.fm/user/EthanP1">Last.fm</a></li>
 </ul>
 
-<h2 class="Title">This is where I keep the outdated memes</h2>
+<h2 style="color: #ec38bc">This is where I keep the outdated memes</h2>
 
 <!--AMP Gallary-->
 <div class="responsive" style="text-align: center;">
