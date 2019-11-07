@@ -2,7 +2,7 @@
   "short_name": "EthanTech",
   "name": "Ethan's Tech",
   "icons": [{
-    "src": "tile.png",
+    "src": "/img/tile.png",
     "type": "image/png",
     "sizes": "558x558"
   }],
