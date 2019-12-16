@@ -13,7 +13,7 @@
   body {
     --main-bg-color: whitesmoke;
     --main-txt-color: #303030;
-    --nav-hov-color: #b19cd9;
+    --nav-hov-color: #dcdcdc;
     background: var(--main-bg-color);
     color: var(--main-txt-color);
   }
@@ -23,7 +23,7 @@
   Body {
     --main-bg-color: #303030;
     --main-txt-color: whitesmoke;
-    --nav-hov-color: #966fd6;
+    --nav-hov-color: #111;
     background: var(--main-bg-color);
     color: var(--main-txt-color);
   }
@@ -34,13 +34,11 @@ h1 {
   margin: auto 550px auto auto;
   text-align: center;
   font-size: 1.7vmax;
-  font-family: 'Ubuntu', sans-serif;x\
 }
 
 h2 {
   font-size: 3.0vh;
   padding-left: 20px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 p {
@@ -49,9 +47,6 @@ p {
   padding-left: 60px;
 }
 
-li {
-  font-family: 'Ubuntu', sans-serif;
-}
 .Title {
   color: #ec38bc;
 }
