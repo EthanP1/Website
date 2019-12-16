@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <list default="true" id="839d4555-5f2c-4cb3-9d9d-fd2d9907887d" name="Default Changelist" comment="Updated meme stash">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ethan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ethan.xml" afterDir="false" />
@@ -14,12 +15,17 @@
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
 >>>>>>> 03e8f2b958b68ea705615b356dce5037fef8053c
 =======
+=======
+>>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
       <change beforePath="$PROJECT_DIR$/Git/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/WWDC19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/WWDC19.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+<<<<<<< HEAD
+>>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
+=======
 >>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +184,7 @@
       <workItem from="1571859628772" duration="96000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1573158550800" duration="2601000" />
       <workItem from="1574016717358" duration="727000" />
       <workItem from="1574279938761" duration="33000" />
@@ -187,6 +194,9 @@
       <workItem from="1576524838336" duration="52000" />
       <workItem from="1576524900296" duration="3973000" />
 >>>>>>> 03e8f2b958b68ea705615b356dce5037fef8053c
+=======
+      <workItem from="1573158550800" duration="2280000" />
+>>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
 =======
       <workItem from="1573158550800" duration="2280000" />
 >>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
@@ -354,6 +364,7 @@
     </task>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00024" summary="Fixing img">
       <created>1573163699679</created>
       <option name="number" value="00024" />
@@ -370,6 +381,9 @@
 >>>>>>> 03e8f2b958b68ea705615b356dce5037fef8053c
     </task>
     <option name="localTasksCounter" value="25" />
+=======
+    <option name="localTasksCounter" value="24" />
+>>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
 =======
     <option name="localTasksCounter" value="24" />
 >>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
@@ -451,6 +465,7 @@
     <MESSAGE value="Put Charset as first item in head tag" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <MESSAGE value="Fixing img" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixing img" />
 =======
@@ -458,6 +473,9 @@
     <MESSAGE value="Updated meme stash" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated meme stash" />
 >>>>>>> 03e8f2b958b68ea705615b356dce5037fef8053c
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="Put Charset as first item in head tag" />
+>>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
 =======
     <option name="LAST_COMMIT_MESSAGE" value="Put Charset as first item in head tag" />
 >>>>>>> parent of 5087d8b... Revert "Revert "Switched to Bootstrap""
