@@ -3,8 +3,8 @@
     --main-bg-color: #303030;
     --main-txt-color: whitesmoke;
     --nav-hov-color: #111;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
+    background:  --main-bg-color;
+    color: --main-txt-color;
   }
 }
 
@@ -14,8 +14,8 @@
     --main-bg-color: whitesmoke;
     --main-txt-color: #303030;
     --nav-hov-color: #dcdcdc;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
+    background: --main-bg-color;
+    color: --main-txt-color;
   }
 }
 
@@ -24,8 +24,8 @@
     --main-bg-color: #303030;
     --main-txt-color: whitesmoke;
     --nav-hov-color: #111;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
+    background: --main-bg-color;
+    color: --main-txt-color;
   }
 }
 
@@ -90,7 +90,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--main-bg-color);
+  background-color: --main-bg-color;
 }
 
 ul.topnav li {
@@ -99,14 +99,14 @@ ul.topnav li {
 
 ul.topnav li a {
   display: block;
-  color: var(--main-txt-color);
+  color: --main-txt-color;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color: var(--nav-hov-color);
+  background-color: --nav-hov-color;
 }
 
 ul.topnav li a.active {
@@ -135,7 +135,7 @@ ul.topnav li.right {
   font-size: 16px;
   border: none;
   outline: none;
-  color:  var(--main-txt-color);
+  color:  --main-txt-color;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -146,7 +146,7 @@ ul.topnav li.right {
   font-size: 16px;
   border: none;
   outline: none;
-  color:  var(--main-txt-color);
+  color:  --main-txt-color);
   padding: 14px 16px;
   background-color: rgb(140, 0, 255);
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -158,14 +158,14 @@ ul.topnav li.right {
 }
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color:  var(--nav-hov-color);
+  background-color:  --nav-hov-color;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--main-bg-color);
+  background-color: --main-bg-color;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
@@ -174,7 +174,7 @@ ul.topnav li.right {
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: var(--main-txt-color);
+  color: --main-txt-color;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -183,7 +183,7 @@ ul.topnav li.right {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: var(--nav-hov-color);
+  background-color: --nav-hov-color;
 }
 
 /* Show the dropdown menu on hover */
