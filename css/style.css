@@ -29,10 +29,6 @@
   }
 }
 
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
-
 h1 {
   color: #ffff00;
   margin: auto 550px auto auto;
@@ -85,3 +81,47 @@ img {
     padding-right: 20px
   }
 }
+ /*Nav Bar Scripting */
+    body {
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: var(--main-bg-color);
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    ul.topnav li a {
+      display: block;
+      color: var(--main-txt-color);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {
+      background-color: var(--nav-hov-color);
+    }
+
+    ul.topnav li a.active {
+      background-color: rgb(140, 0, 255);
+    }
+
+    ul.topnav li.right {
+      float: right;
+    }
+
+    @media screen and (max-width: 550px) {
+      ul.topnav li.right,
+      ul.topnav li {
+        float: none;
+      }
+    }
