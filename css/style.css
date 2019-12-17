@@ -1,0 +1,86 @@
+@media (prefers-color-scheme: no-preference) {
+  Body {
+    --main-bg-color: #303030;
+    --main-txt-color: whitesmoke;
+    --nav-hov-color: #111;
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  /* Overrides for Light Mode. */
+  body {
+    --main-bg-color: whitesmoke;
+    --main-txt-color: #303030;
+    --nav-hov-color: #dcdcdc;
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  Body {
+    --main-bg-color: #303030;
+    --main-txt-color: whitesmoke;
+    --nav-hov-color: #111;
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
+  }
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  color: #ffff00;
+  margin: auto 550px auto auto;
+  text-align: center;
+  font-size: 1.7vmax;
+}
+
+h2 {
+  font-size: 3.0vh;
+  padding-left: 20px;
+}
+
+p {
+  font-size: 2vmin;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 60px;
+}
+
+.Title {
+  color: #ec38bc;
+}
+
+.main {
+  padding-left: 80px;
+  padding-right: 200px;
+}
+
+img {
+  padding-left: 80px
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 3.3vh;
+  }
+
+  p {
+    font-size: 3.0vh;
+    padding-left: 20px
+  }
+
+  img {
+    width: 80%;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
+  .main {
+    padding-left: 40px;
+    padding-right: 20px
+  }
+}
