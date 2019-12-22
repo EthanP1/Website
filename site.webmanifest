@@ -3,7 +3,7 @@
   "name": "Ethan's Tech",
   "display": "standalone",
   "icons": [{
-    "src": "/img/tile.png",
+    "src": "../img/tile.png",
     "type": "image/png",
     "sizes": "558x558"
   }],
