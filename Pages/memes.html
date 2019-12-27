@@ -88,62 +88,91 @@
 
   <!--background and Navbar style-->
   <style amp-custom>
-@media (prefers-color-scheme: no-preference) {
-  Body {
-    --main-bg-color: #303030;
-    --main-txt-color: whitesmoke;
-    --nav-hov-color: #111;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
-  }
-}
+    @media (prefers-color-scheme: no-preference) {
+      Body {
+        --main-bg-color: #303030;
+        --main-txt-color: whitesmoke;
+        --nav-hov-color: #111;
+        background: var(--main-bg-color);
+        color: var(--main-txt-color);
+      }
+    }
 
-@media (prefers-color-scheme: light) {
-  /* Overrides for Light Mode. */
-  body {
-    --main-bg-color: whitesmoke;
-    --main-txt-color: #303030;
-    --nav-hov-color: #dcdcdc;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
-  }
-}
+    @media (prefers-color-scheme: light) {
+      /* Overrides for Light Mode. */
+      body {
+        --main-bg-color: whitesmoke;
+        --main-txt-color: #303030;
+        --nav-hov-color: #dcdcdc;
+        background: var(--main-bg-color);
+        color: var(--main-txt-color);
+      }
+    }
 
-@media (prefers-color-scheme: dark) {
-  Body {
-    --main-bg-color: #303030;
-    --main-txt-color: whitesmoke;
-    --nav-hov-color: #111;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
-  }
-}
+    @media (prefers-color-scheme: dark) {
+      Body {
+        --main-bg-color: #303030;
+        --main-txt-color: whitesmoke;
+        --nav-hov-color: #111;
+        background: var(--main-bg-color);
+        color: var(--main-txt-color);
+      }
+    }
 
-h2 {
-  font-size: 3.0vh;
-  padding-left: 20px;
-}
+    h1 {
+      color: #ffff00;
+      margin: auto 550px auto auto;
+      text-align: center;
+      font-size: 1.7vmax;
+    }
 
-body {
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-}
-img {
-  padding-left: 80px
-}
+    h2 {
+      font-size: 3.0vh;
+      padding-left: 20px;
+    }
 
-@media only screen and (max-width: 800px) {
-  h2 {
-    font-size: 3.3vh;
-  }
+    p {
+      font-size: 2vmin;
+      font-family: 'Ubuntu', sans-serif;
+      padding-left: 60px;
+    }
 
-  img {
-    width: 80%;
-    padding-left: 40px;
-    padding-right: 20px;
-  }
+    .Title {
+      color: #ec38bc;
+    }
 
- /*Nav Bar Scripting */
+    .main {
+      padding-left: 80px;
+      padding-right: 200px;
+    }
+
+    img {
+      padding-left: 80px
+    }
+
+    @media only screen and (max-width: 800px) {
+      h2 {
+        font-size: 3.3vh;
+      }
+
+      p {
+        font-size: 3.0vh;
+        padding-left: 20px
+      }
+
+      img {
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 20px;
+      }
+
+      .main {
+        padding-left: 40px;
+        padding-right: 20px
+      }
+    }
+
+    /*Nav Bar Scripting */
     body {
       margin: 0;
       font-family: 'Ubuntu', sans-serif;
@@ -187,6 +216,69 @@ img {
         float: none;
       }
     }
+
+    /* Links inside the navbar */
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: var(--main-txt-color);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* The dropdown container */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: var(--main-txt-color);
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: var(--nav-hov-color);
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: var(--main-bg-color);
+      min-width: 160px;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      float: none;
+      color: var(--main-txt-color);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: var(--nav-hov-color);
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
   </style>
 </head>
 
@@ -199,14 +291,14 @@ img {
     <button class="dropbtn" onclick="myFunction()">Apple Events
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="Apple">
+    <div class="dropdown-content" id="myDropdown">
       <a href="WWDC19.html">WWDC 2019</a>
       <a class="active" href="Apple19.html">Apple Event 19</a>
     </div>
   </div>
-  <li.right><a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g">Free shizzle</a></li.right>
-  <li.right> <a href="https://myanimelist.net/animelist/EthanP1">Anime List</a></li.right>
-  <li.right><a href="https://www.last.fm/user/EthanP1">Last.fm</a></li.right>
+  <li style="float:right"><a href="https://1drv.ms/f/s!ArHvi6WuZlrDhr4sb6wzieaavpB8_g">Free shizzle</a></li>
+  <li style="float:right"><a href="https://myanimelist.net/animelist/EthanP1">Anime List</a></li>
+  <li style="float:right"><a href="https://www.last.fm/user/EthanP1">Last.fm</a></li>
 </ul>
 
 <h2 style="color: #ec38bc">This is where I keep the outdated memes</h2>
