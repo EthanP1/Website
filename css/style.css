@@ -24,8 +24,8 @@
     --main-bg-color: #303030;
     --main-txt-color: whitesmoke;
     --nav-hov-color: #111;
-    background: --main-bg-color;
-    color: --main-txt-color;
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
   }
 }
 

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839d4555-5f2c-4cb3-9d9d-fd2d9907887d" name="Default Changelist" comment="Updated meme stash">
+    <list default="true" id="839d4555-5f2c-4cb3-9d9d-fd2d9907887d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pages/WWDC20.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ethan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ethan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Apple19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Apple19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/WWDC19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/WWDC19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/memes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/memes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
@@ -20,11 +24,6 @@
     <option name="printScope" value="4" />
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Website">
-      <favorite_root url="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/core-scripting.rnc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,17 +43,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/EthanP1/Website.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1RInEWNzQ2TqAy8FynoTLjYsbCk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
@@ -72,7 +79,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="discord-application" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,18 +106,6 @@
         <item itemvalue="JavaScript Debug.memes.html" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -163,7 +158,13 @@
       <workItem from="1571859628772" duration="96000" />
       <workItem from="1573158550800" duration="2280000" />
       <workItem from="1576524838336" duration="52000" />
-      <workItem from="1576524900296" duration="3973000" />
+      <workItem from="1576524900296" duration="6090000" />
+      <workItem from="1577645063913" duration="70000" />
+      <workItem from="1580569306319" duration="34000" />
+      <workItem from="1580569354007" duration="1572000" />
+      <workItem from="1581797958793" duration="48000" />
+      <workItem from="1592909202846" duration="149000" />
+      <workItem from="1592909373336" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="Ported old code and media">
       <created>1553636833928</created>
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576528100103</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated meme stash&#10;Fixed CSS custom properties&#10;-problem with gallery">
+      <created>1576529181210</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576529181210</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -345,7 +353,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -365,9 +373,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -386,6 +392,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -412,35 +419,21 @@
     <MESSAGE value="Put Charset as first item in head tag" />
     <MESSAGE value="Nav Dropdown #1" />
     <MESSAGE value="Updated meme stash" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated meme stash" />
+    <MESSAGE value="Updated meme stash&#10;Fixed CSS custom properties" />
+    <MESSAGE value="Updated meme stash&#10;Fixed CSS custom properties&#10;-problem with gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated meme stash&#10;Fixed CSS custom properties&#10;-problem with gallery" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1663" y="534" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576528935297">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="414" y="233" key="SettingsEditor" timestamp="1592909679509">
+      <screen x="0" y="0" width="1824" height="1176" />
     </state>
-    <state x="1663" y="534" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1576528935297" />
-    <state x="1543" y="207" key="CommitChangelistDialog2" timestamp="1576528978432">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="414" y="233" key="SettingsEditor/0.0.1824.1176@0.0.1824.1176" timestamp="1592909679509" />
+    <state x="692" y="433" key="cloudConfig.PluginsDialog" timestamp="1592909258372">
+      <screen x="0" y="0" width="1824" height="1176" />
     </state>
-    <state x="1543" y="207" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1576528978432" />
-    <state x="781" y="341" key="SettingsEditor" timestamp="1576525150868">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="781" y="341" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1576525150868" />
-    <state x="1512" y="428" key="Vcs.Push.Dialog.v2" timestamp="1576529115917">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1512" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1576529115917" />
-    <state x="1727" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576529080697">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1727" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1576529080697" />
-    <state x="768" y="338" width="1057" height="757" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576524882463">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="768" y="338" width="1057" height="757" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1576524882463" />
+    <state x="692" y="433" key="cloudConfig.PluginsDialog/0.0.1824.1176@0.0.1824.1176" timestamp="1592909258372" />
   </component>
 </project>
