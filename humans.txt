@@ -4,11 +4,13 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-    Ethan   Develper    @ethanP111
+    Ethan   Developer    @ethanP111
 
 # THANKS
 
-    <name>
+    Me - being awesome
+    Brooke - Making me aspire to code
+    Cat - Mental support
 
 # TECHNOLOGY COLOPHON
 
