@@ -7,4 +7,4 @@ I don't have an idea for the website yet...
 <br />
 If you have any ideas then feel free to fork my website
 <br />
-[Proceed to site](https://ethanp.systems//Pages/index.html)
+[Proceed to site](https://ethanp.systems/index.html)
