@@ -7,5 +7,6 @@
     <orderEntry type="library" name="cookieControl-9.x" level="application" />
     <orderEntry type="library" name="jquery-3.3.1" level="application" />
     <orderEntry type="library" name="analytics" level="application" />
+    <orderEntry type="library" name="jquery-3.3.1" level="application" />
   </component>
 </module>
